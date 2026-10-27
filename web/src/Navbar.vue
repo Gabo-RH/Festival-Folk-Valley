@@ -1,7 +1,7 @@
 <script setup>
 import { onBeforeUnmount, ref } from 'vue'
 import gsap from 'gsap'
-import BurgerIconImage from '../Assets/BurgerIcon.png'
+import BurgerIconImage from '../Assets/burgericon.png'
 import FolkValleyLogoImage from '../Assets/FolkValleyLogo.png'
 
 const emit = defineEmits(['logo-click', 'burger-click'])
